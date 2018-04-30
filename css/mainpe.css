@@ -1,0 +1,162 @@
+/*------header-------*/
+#nav{
+  margin:0 auto;
+  width:100%;
+  height:200px;
+}
+
+#nav ul{
+  margin:0;
+  padding:0;
+  width:100%;
+  list-style:none;
+}
+
+#nav li{
+  margin-left:0;
+  float:left;
+  width:50%;
+  height:110px;
+  display:inline-block;
+}
+
+#nav h1{
+  margin-top:0;
+  width:100%;
+  color:DeepSkyBlue;
+  font-size:100px;
+  margin-left:0;
+}
+
+#nav button{
+  display:block;
+  background-color:rgba(0,191,255,0.7);
+  color:White;
+  width:20%;
+  margin-top:14px;
+  height:110px;
+  font-size:45px;
+  margin-left:80%;
+}
+
+
+/*------nav导航栏--------*/
+#navbtn{
+  margin:0;
+  padding:0;
+  width:80%;
+  margin-left:5%;
+  display:none;
+  text-align:center;
+  position:relative;
+}
+
+.type{
+  width:100%;
+  margin-left:0;
+  color:White;
+  font-size:25px;
+}
+
+#navbtn a{
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  margin:0;
+  font-size:45px;
+  color:White;
+}
+
+
+#navbtn ul{
+  width:100%;
+  list-style-type:none;
+}
+
+#navbtn li{
+  width:80%;
+  display:inline-block;
+  background-color:DeepSkyBlue;
+  opacity:0.7;
+  border-style:solid;
+  border-color:Black;
+}
+
+/*------卡片个人简介--------*/
+.mancard{
+  margin-top:50px;
+  display:block;
+  background-color:rgba(0,191,255,0.3);
+  width:94%;
+  height:auto;
+  padding:0;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-left:3%;
+}
+.mancard h2{
+  text-align:center;
+  font-size:77px;
+  color:DeepSkyBlue;
+}
+.mancard p{
+  font-size:55px;
+  color:White;
+}
+
+
+
+/*-----卡片博客简介-------*/
+.card{
+  display:block;
+  padding:0;
+  margin-top:55px;
+  width:94%;
+  height:800px;
+  margin-left:3%;
+}
+.ttl{
+  display:block;
+  border-color:White;
+  border-width:1px;
+  border-style:solid;
+  padding:0;
+  width:100%;
+  height:600px;
+  display:inline-block;
+  background-color:rgba(255,255,255,0.3);
+}
+.ttl p{
+  color:White;
+  font-size:35px;
+}
+.ttl a{
+  margin:0;
+  display:block;
+  text-align:center;
+  font-size:55px;
+  color:DeepSkyBlue;
+}
+.day{
+  margin-top:0;
+  display:inline-block;
+  width:100%;
+  height:200px;
+  padding:0;
+  background-color:Green;
+}
+.day p{
+  margin:0;
+  display:block;
+  font-size:150px;
+  text-align:center;
+  color:White;
+}
+
+/*----底栏----*/
+.ft p{
+  display:block;
+  text-align:center;
+  font-size:25px;
+  color:White;
+}

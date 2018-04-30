@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<link href="../css/main.css" rel="stylesheet">
+	<script src="../js/ttl.js"></script>
+	<title>冷夜枫寒</title>
+  </head>
+  <body>
+	<div id="nav">
+	  <ul>
+		<li><h1>冷夜枫寒</h1><h3 class="type">枫叶落，荻花干，夜宿渔舟不觉寒</h3></li>
+		<li><button onclick=navbt()>菜单</button></li>
+	  </ul>
+	</div>
+	<div id="navbtn">
+	  <ul>
+		<li>
+		  <a href="../index.html">首页</a>
+		</li>
+		<li>
+		  <a href="#">App客户端</a>
+		</li>
+		<li>
+		  <a href="../download.html">下载</a>
+		</li>
+		<li>
+		  <a href="../link.html">友情链接</a>
+		</li>
+		<li>
+		  <a href="../help.html">帮助</a>
+		</li>
+	  </ul>
+	</div>
+	<!----卡片式个人简介---->
+	<div class="mancard">
+	  <h2>冷夜枫寒</h2>
+	  <p>&emsp;&emsp;热爱我所热爱的，喜欢我所喜欢的.</p>
+	</div>
+	<!----卡片式博客简介---->
+	<div class="test">
+	  <h1>游戏《被尘封的故事》钻石修改分析</h1>
+	  <p>&emsp;&emsp;最近突然想玩最新版的《被尘封的故事》,于是就去下载了...
+		<br />&emsp;&emsp;然后打开gg修改器搜索修改,最后发现游戏中钻石数量修改失败。所以我想数据应该不是临时储存在内存里而是直接写入存档,然后根据安卓软件储存数据的5种方式查看。搜先选择的是一种简单方式---使用SharedPreferences存储数据
+		<br />&emsp;&emsp;安卓数据存储方式一共五种分别是
+		<br />&emsp;&emsp;&emsp;1 使用SharedPreferences存储数据
+		<br />&emsp;&emsp;&emsp;2 文件存储数据      
+		<br />&emsp;&emsp;&emsp;3 SQLite数据库存储数据
+		<br />&emsp;&emsp;&emsp;4 使用ContentProvider存储数据
+		<br />&emsp;&emsp;&emsp;5 网络存储数据
+		<br />&emsp;&emsp;这里查看都一种就直接成功了,其他的以后遇到再研究,我的修改流程是这样的:
+		<br />&emsp;&emsp;&emsp;1:打开es文件管理器 查看游戏包名 com.mindblocks.blocks_light 
+		<br />&emsp;&emsp;&emsp;2:在/data/data目录下找到 com.mindblocks.blocks_light 文件夹
+		<br />&emsp;&emsp;&emsp;3:之后在该文件夹下看到有好几个文件夹其中shared_prefs文件夹用于存储一些数据 打开这个文件夹
+		<br />&emsp;&emsp;&emsp;4:文件夹下有两个.xml文件
+		<br />&emsp;&emsp;&emsp;com.heyzap.sdk.ads.xml
+		<br />&emsp;&emsp;&emsp;com.mindblocks.block....xml
+		<br />&emsp;&emsp;&emsp;从名字分析
+		<br />&emsp;&emsp;&emsp;&emsp;第一个应该是广告接口一类;
+		<br />&emsp;&emsp;&emsp;&emsp;第二个是玩家数据;
+		<br />&emsp;&emsp;&emsp;5:查看第二个文件
+		<br />&emsp;&emsp;&emsp;搜索数值（当时是90）,
+		<br />&emsp;&emsp;&emsp;然后看到一行代码:
+		<br />&emsp;&emsp;&emsp;int name=..... value="90"
+		<br />&emsp;&emsp;看名字好长 但是有一个单词“diamond”钻石,并且后面的值就是"90",不过为了安全起见我还是先去再次游戏不断刷怪得到了几个钻石◑﹏◐;然后再次查看,发现的确跟着更新了才确定;
+		<br />&emsp;&emsp;&emsp;6:修改该值 游戏修改器默认int型最大值为[65535]所以我就修改为9999实际java中int类型最大为“-2147483648”到“2147483647”;然后保存进入游戏发现数值修改成功 购买商品发现数值按单价减少 修改成功
+		<br />以上就是《被尘封的故事》中钻石修改的心得了 同样还可用于其他将金币等数值使用SharedPreferences存储数据的情况
+	  </p>
+	</div>
+  </body>
+  <footer class="ft">
+	<p>Made By Lengyefenghan @2018</p>
+  </footer>
+</html>		
