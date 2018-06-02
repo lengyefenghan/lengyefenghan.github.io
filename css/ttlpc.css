@@ -38,7 +38,7 @@
   float:right;
   display:block;
   width:20%;
-  margin-top:20%;
+  margin-top:10%;
   height:auto;
   margin-right:5%;
   margin-bottom:15px;
@@ -81,4 +81,5 @@
   display:block;
   text-align:center;
   color:White;
+  bottom:0px;
 }
