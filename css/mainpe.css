@@ -156,8 +156,8 @@ height:auto;
 }
 
 /*----底栏----*/
-.ft p{
-  display:block;
+footer{
+  width: 100%;
   text-align:center;
   font-size:25px;
   color:White;
