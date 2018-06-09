@@ -106,8 +106,9 @@
   color:white;
 }
 /*----底栏----*/
-.ft p{
-  display:block;
+footer{
+  width: 100%;
+  bottom: 0px;
   text-align:center;
   font-size:25px;
   color:White;
