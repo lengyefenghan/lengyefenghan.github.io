@@ -77,8 +77,8 @@
 }
 
 /*----底栏----*/
-.ft{
-  display:block;
+footer{
+  width: 100%;
   text-align:center;
   color:White;
   bottom:0px;
