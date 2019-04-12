@@ -71,13 +71,55 @@ article {
     background-color:white;
     z-index:101;
 }
+/*-------博客导航--------*/
+.top_nav{
+    background-color:rgba(1,1,1,0.8);
+    color:white;
+    font-size:150%;
+    z-index:301;
+}
+.top_nav a:hover {
+    text-decoration: none;
+    color: white;
+}
 
+.top_nav a:link {
+    text-decoration: none;
+    color: white;
+}
 
+    .top_nav a:visited {
+        text-decoration: none;
+        color: white;
+    }
 
+.top_nav a:active {
+    text-decoration: none;
+    color: deeppink;
+}
 /*----博客卡片简介----*/
 .card{
   height:2000px;
   z-index:201;
+}
+.card a:hover {
+    text-decoration: none;
+    color: DeepSkyBlue;
+}
+
+.card a:link {
+    text-decoration: none;
+    color: DeepSkyBlue;
+}
+
+.card a:visited {
+    text-decoration: none;
+    color: DeepSkyBlue;
+}
+
+.card a:active {
+    text-decoration: none;
+    color: Red;
 }
 
 .ttl{

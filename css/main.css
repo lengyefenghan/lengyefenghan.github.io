@@ -5,35 +5,16 @@ html{
 
 
 body{
-    width:100%;
+  width:100%;
   top:0;
   bottom:0;
   margin:0;
   position:absolute;
   height:auto;
   background-color:rgba(1,1,1,0.2);
-  background-attachment:fixed;
 }
 
-a:hover{
-  text-decoration:none;
-  color:DeepSkyBlue;
-}
 
-a:link{
-  text-decoration:none;
-  color:DeepSkyBlue;
-}
-
-a:visited{
-  text-decoration:none;
-  color:DeepSkyBlue;
-}
-
-a:active{
-  text-decoration:none;
-  color:Red;
-}
 
 
 /*----µ×À¸----*/
