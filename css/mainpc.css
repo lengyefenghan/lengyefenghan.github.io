@@ -1,70 +1,86 @@
-/*-------按钮（隐藏）--------*/
+/*-------按钮--------*/
 
+hr{
+    margin:0;
+    padding:0;
+
+}
 /*------nav导航栏--------*/
 header {
     top: 0;
-    background-color: black;
+    background-color: whitesmoke;
     position: fixed;
     margin: 0;
     padding: 0;
     left:16%;
     width: 53%;
-    color: white;
+    color: deepskyblue;
 }
 
     header h1 {
         margin-left: 3%;
         margin-top: 0;
-        float: left;
+        float: right;
         margin-bottom: 0;
     }
 
     header h3 {
         margin-bottom: 0;
         margin-right: 3%;
-        float: right;
+        float: left;
     }
 /*-----卡片个人简介-----*/
-#mancard{
-  float:right;
-  right:16%;
-  position:fixed;
-  width:15%;
-  top:0;
-  height:100%;
-  background-color:rgba(0,191,255,0.3);
+aside {
+    padding: 0;
+    float: left;
+    left:69%;
+    position: fixed;
+    width: 15%;
+    top: 0;
+    height:100%;
+    background-color: black;
+    z-index: 100;
+}
+#mancard {
+    padding: 0;
+    float: left;
+    left: 69%;
+    position: fixed;
+    width: 15%;
+    top: 0;
+    height: 32%;
+    background-color: blue;
+    z-index: 200;
 }
 #mancard h2{
-  margin-top:25px;
-  display:block;
+  margin-top:32%;
   color:DeepSkyBlue;
   text-align:center;
 }
 #mancard p{
-  display:block;
-  margin-bottom:25px;
-  color:White
+  color:white;
 }
+/*-------按钮--------*/
+
+
+
 
 /*----博客卡片简介----*/
 .card{
   margin-top:5%;
   display:block;
-  width:56%;
-  margin-left:17%;
+  width:53%;
+  float:left;
+  margin-left:16%;
   height:2000px;
 }
 
 .ttl{
   margin-top:1%;
   height:auto;
-  border-color:White;
-  border-width:1px;
-  border-style:solid;
   float:left;
   display:inline-block;
-  background-color:rgba(255,255,255,0.3);
-  width:90%;
+  width:100%;
 }
 .ttl p{
 text-align:left;
@@ -85,11 +101,17 @@ text-align:left;
 }
 
 footer {
-    width: 53%;
-    left:16%;
+    margin-bottom: 0;
+    width: 15%;
+    float: right;
+    right: 16%;
+    bottom: 0;
     position: fixed;
-    text-align: center;
-    color: white;
-    bottom: 0px;
-    background-color: black;
+    z-index: 300;
+}
+
+footer p{
+    color:white;
+    text-align:center;
+
 }
