@@ -7,14 +7,17 @@ hr{
 }
 /*------nav导航栏--------*/
 header {
+    display:none;
     top: 0;
     background-color: whitesmoke;
-    position: fixed;
     margin: 0;
     padding: 0;
+    margin-left:16%;
     left:16%;
     width: 53%;
     color: deepskyblue;
+    height:68%;
+    z-index:999;
 }
 
     header h1 {
@@ -49,7 +52,6 @@ aside {
     width: 15%;
     top: 0;
     height: 32%;
-    background-color: blue;
     z-index: 200;
 }
 #mancard h2{
@@ -60,19 +62,22 @@ aside {
 #mancard p{
   color:white;
 }
-/*-------按钮--------*/
-
+/*-------博客主题--------*/
+article {
+    width: 53%;
+    float: left;
+    margin-left: 16%;
+    height:auto;
+    background-color:white;
+    z-index:101;
+}
 
 
 
 /*----博客卡片简介----*/
 .card{
-  margin-top:5%;
-  display:block;
-  width:53%;
-  float:left;
-  margin-left:16%;
   height:2000px;
+  z-index:201;
 }
 
 .ttl{
