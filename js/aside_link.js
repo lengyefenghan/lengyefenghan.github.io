@@ -1,0 +1,2 @@
+document.writeln("<" + "a href=\" " + "http://www.grhackers.club/wordpress/" + "\" " + ">" + "G-R¼«ÉäÏß" + "</" + "a>");
+document.writeln("<" + "a href=\" " + "http://www.linuxgame.cn" + "\" " + ">" + "linuxÓÎÏ·Õ¾" + "</" + "a>");
