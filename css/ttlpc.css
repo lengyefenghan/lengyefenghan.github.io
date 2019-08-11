@@ -185,16 +185,6 @@ article {
     left: 50%;
     top: 15%;
 }
-
-/*----博客卡片简介----*/
-.card {
-    margin-top: 5px;
-    z-index: 201;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: rgba(1,1,1,0.8);
-}
-
 .caiju hr {
     margin: 0;
     border-bottom-style: solid;
@@ -204,40 +194,28 @@ article {
     padding: 0;
 }
 
-.card a {
-    width: 100%;
+/*----博客卡片简介----*/
+.card {
+    margin-top: 5px;
+    z-index: 201;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgba(1,1,1,0.8);
+    height: auto;
+}
+/*----pdf嵌入问题----*/
+embed{
     display: block;
-    padding-left: 3%;
-    color: DeepSkyBlue;
-    font-size: 100%;
-}
-
-    .card a:hover {
-        text-decoration: none;
-        color: DeepSkyBlue;
-    }
-
-    .card a:link {
-        text-decoration: none;
-        color: DeepSkyBlue;
-    }
-
-    .card a:visited {
-        text-decoration: none;
-        color: DeepSkyBlue;
-    }
-
-    .card a:active {
-        text-decoration: none;
-        color: Red;
-    }
-
-.card p {
-    text-align: left;
-    font-size: 85%;
     margin: 0;
-    color: rgba(1,1,1,0.9);
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999；
 }
+
+
+
+
 
 
 footer {
