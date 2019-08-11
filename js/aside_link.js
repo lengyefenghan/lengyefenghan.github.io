@@ -1,2 +1,2 @@
-document.writeln("<" + "a href=\" " + "http://www.grhackers.club/wordpress/" + "\" " + ">" + "G-R极射线" + "</" + "a>");
+//document.writeln("<" + "a href=\" " + "http://www.grhackers.club/wordpress/" + "\" " + ">" + "G-R极射线" + "</" + "a>");
 document.writeln("<" + "a href=\" " + "http://www.linuxgame.cn" + "\" " + ">" + "linux游戏站" + "</" + "a>");
