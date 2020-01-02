@@ -1,0 +1,1 @@
+document.writeln("<a href=\" " + "http://www.beian.miit.gov.cn/" + "\" " + ">" + "<p>豫ICP备19043668号</p>" + "</a>");

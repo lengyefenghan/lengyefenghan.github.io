@@ -161,8 +161,7 @@ footer {
     position: relative;
     z-index: 300;
 }
-
-    footer p {
-        color: white;
-        text-align: center;
-    }
+footer p {
+    color: white;
+    text-align: center;
+}
