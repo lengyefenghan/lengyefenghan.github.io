@@ -14,11 +14,10 @@ header {
     background-color: rgba(1,1,1,0.8);
     margin: 0;
     padding: 0;
-    margin-left: 16%;
-    left: 16%;
-    width: 53%;
+    width: 83%;
     color: deepskyblue;
     z-index: 999;
+    position: fixed;
 }
 
 .top_nav {
@@ -74,7 +73,7 @@ header h1 {
 aside {
     padding: 0;
     float: left;
-    left: 69%;
+    left: 83%;
     position: fixed;
     width: 17%;
     top: 0;
@@ -148,7 +147,6 @@ img {
 
 #mancard {
     float: left;
-    left: 69%;
     position: fixed;
     width: 17%;
     height: 80%;
@@ -167,14 +165,18 @@ img {
     }
 /*-------博客主题--------*/
 article {
-    width: 53%;
+    width: 83%;
     float: left;
-    margin-left: 16%;
+    margin-left: 0;
     height: auto;
     background-color: white;
     z-index: 101;
 }
 /*-------采菊--------*/
+.caiju {
+    display: none;
+}
+/*
 .caiju {
     display: block;
     color: white;
@@ -193,7 +195,7 @@ article {
     background-color: rgba(1,1,1,0.8);
     padding: 0;
 }
-
+*/
 /*----博客卡片简介----*/
 .card {
     margin-top: 5px;
@@ -214,17 +216,11 @@ embed{
 }
 
 
-
-
-
-
 footer {
     background-color: #8d669b;
     margin-bottom: 0;
-    height: 10%;
-    width: 70%;
+    width: 100%;
     float: right;
-    right: 16%;
     bottom: 0;
     position: fixed;
     z-index: 300;

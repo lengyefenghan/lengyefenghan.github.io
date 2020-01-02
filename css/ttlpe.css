@@ -87,14 +87,8 @@ article {
 }
 /*-------采菊--------*/
 .caiju {
-    display: block;
-    color: white;
-    font-size: 210%;
-    float: left;
-    z-index: 300;
-    position: absolute;
-    left: 55%;
-    top: 4%;
+    display: none;
+   
 }
 
 /*----博客卡片简介----*/
@@ -107,14 +101,6 @@ article {
     border-color: rgba(1,1,1,0.8);
 }
 
-.caiju hr {
-    margin: 0;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(1,1,1,0.8);
-    height: 3px;
-    background-color: rgba(1,1,1,0.8);
-    padding: 0;
-}
 
 .card a {
     width: 100%;
@@ -163,7 +149,7 @@ footer {
     z-index: 300;
 }
 
-    footer p {
-        color: white;
-        text-align: center;
-    }
+footer p {
+    color: white;
+    text-align: center;
+}

@@ -86,14 +86,7 @@ article {
 }
 /*-------采菊--------*/
 .caiju {
-    display: block;
-    color: white;
-    font-size: 210%;
-    float: left;
-    z-index: 300;
-    position: absolute;
-    left: 55%;
-    top: 4%;
+    display: none;
 }
 
 /*----博客卡片简介----*/
